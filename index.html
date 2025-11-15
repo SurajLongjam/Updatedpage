@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Developer Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Developer Dashboard</h1>
+    <div>User: Suraj Longjam</div>
+  </header>
+
+  <div class="sidebar">
+    <a href="#uiux">UI/UX Tasks</a>
+    <a href="#frontend">Frontend</a>
+    <a href="#backend">Backend</a>
+    <a href="#progress">Progress</a>
+  </div>
+
+  <div class="main">
+    <div class="grid">
+
+      <div class="card" id="uiux">
+        <h2>UI/UX Design Tasks</h2>
+        <ul>
+          <li>Wireframing</li>
+          <li>Prototype Design</li>
+          <li>User Flow Mapping</li>
+          <li>UX Research</li>
+        </ul>
+      </div>
+
+      <div class="card" id="frontend">
+        <h2>Frontend Development</h2>
+        <ul>
+          <li>Component Development</li>
+          <li>API Integration</li>
+          <li>Responsive Layouts</li>
+          <li>Performance Optimization</li>
+        </ul>
+      </div>
+
+      <div class="card" id="backend">
+        <h2>Backend Development</h2>
+        <ul>
+          <li>Database Schema Design</li>
+          <li>API Development</li>
+          <li>Authentication System</li>
+          <li>Deployment</li>
+        </ul>
+      </div>
+
+      <div class="card" id="progress">
+        <h2>Project Progress</h2>
+        <canvas id="progressChart"></canvas>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
